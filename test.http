@@ -1,0 +1,21 @@
+### Create User
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "Anonymous",
+    "email": "anonymous@go.dev"
+}
+
+### List all users
+
+GET http://localhost:8080/users
+
+### Get 1 user by id
+
+GET http://localhost:8080/users/4
+
+### Delete 1 user by id
+
+DELETE  http://localhost:8080/users/4
